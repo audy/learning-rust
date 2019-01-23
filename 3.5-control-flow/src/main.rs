@@ -5,7 +5,7 @@ fn main() {
 
     println!("number is {}", number);
 
-    let a = [1, 2, 3, 4, 5];
+    let a: [i32; 5] = [1, 2, 3, 4, 5];
 
     let mut index = 0;
 
