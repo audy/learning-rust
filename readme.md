@@ -1,3 +1,3 @@
 # learning-rust
 
-Yes.
+- https://doc.rust-lang.org/book
