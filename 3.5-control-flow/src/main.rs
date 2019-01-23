@@ -1,7 +1,7 @@
 fn main() {
     let condition = false;
 
-    let number = if condition { three() } else { five() };
+    let number: i32 = if condition { three() } else { five() };
 
     println!("number is {}", number);
 
