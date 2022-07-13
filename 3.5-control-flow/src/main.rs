@@ -7,7 +7,7 @@ fn main() {
 
     let a: [i32; 5] = [1, 2, 3, 4, 5];
 
-    let mut index = 0;
+    let mut index: usize = 0;
 
     while index < 5 {
         println!("(while) value is {}", a[index]);

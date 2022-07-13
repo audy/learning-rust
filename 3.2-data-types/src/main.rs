@@ -24,15 +24,21 @@ fn main() {
 
     // tuple compounds
 
-    let tup: (i32, f64, u8) = (500, 6.4, 1);
+    let mut tup: (i32, f64, u8) = (500, 6.4, 1);
 
-    let (x, y, z) = tup;
+    let (mut x, y, z) = tup;
+
+    tup.0 = 5;
+
+    x = 6;
+
+    println!("The value of x is : {}", x);
 
     println!("The value of y is : {}", y);
 
     // array compounds
     // stored in the stack
-    let a: [i32; 5] = [1, 2, 3, 4, 5];
+    let mut a: [i32; 5] = [1, 2, 3, 4, 5];
 
     let first = a[0];
 

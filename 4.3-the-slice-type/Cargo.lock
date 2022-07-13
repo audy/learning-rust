@@ -3,5 +3,5 @@
 version = 3
 
 [[package]]
-name = "control-flow"
+name = "the-slice-type"
 version = "0.1.0"
